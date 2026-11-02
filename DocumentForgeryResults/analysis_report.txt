@@ -1,0 +1,26 @@
+DOCUMENT FORGERY DETECTION - DIFFERENCE REPORT
+
+Original: sample_document.png.png
+Tampered: tampered_document.png
+Image dimensions: 1103 x 1426
+
+Threshold | Changed pixels | Changed percentage
+       25 |          65502 |    4.16%
+       40 |          56503 |    3.59%
+       60 |          51858 |    3.30%
+
+Selected threshold: 40
+Connected candidate regions: 9
+
+Largest candidate regions:
+Region 1 | Area: 137309 | X: 552, Y: 868, Width: 669, Height: 225
+Region 2 | Area: 59324 | X: 552, Y: 672, Width: 669, Height: 178
+Region 3 | Area: 757 | X: 752, Y: 766, Width: 58, Height: 18
+Region 4 | Area: 697 | X: 754, Y: 796, Width: 57, Height: 18
+Region 5 | Area: 673 | X: 754, Y: 826, Width: 49, Height: 18
+Region 6 | Area: 672 | X: 1184, Y: 808, Width: 37, Height: 26
+Region 7 | Area: 468 | X: 754, Y: 736, Width: 33, Height: 18
+Region 8 | Area: 167 | X: 1212, Y: 724, Width: 10, Height: 19
+Region 9 | Area: 66 | X: 768, Y: 672, Width: 7, Height: 18
+
+Highlighted areas are differences from the reference image, not definitive proof of forgery.
